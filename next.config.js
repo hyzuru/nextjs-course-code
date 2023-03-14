@@ -4,20 +4,20 @@ module.exports = (phase) => {
   if (phase === PHASE_DEVELOPMENT_SERVER) {
     return {
       env: {
-        mongodb_username: 'maximilian',
-        mongodb_password: '2YkcXq43KyPk0vqp',
+        mongodb_username: 'mainuser',
+        mongodb_password: '05xtMAKMOOpakuTj',
         mongodb_clustername: 'cluster0',
-        mongodb_database: 'my-site-dev',
+        mongodb_database: 'meetups-dev',
       },
     };
   }
 
   return {
     env: {
-      mongodb_username: 'maximilian',
-      mongodb_password: '2YkcXq43KyPk0vqp',
+      mongodb_username: 'mainuser',
+      mongodb_password: '05xtMAKMOOpakuTj',
       mongodb_clustername: 'cluster0',
-      mongodb_database: 'my-site',
+      mongodb_database: 'meetups',
     },
   };
 };
