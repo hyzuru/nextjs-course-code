@@ -7,7 +7,7 @@ module.exports = (phase) => {
         mongodb_username: 'mainuser',
         mongodb_password: '05xtMAKMOOpakuTj',
         mongodb_clustername: 'cluster0',
-        mongodb_database: 'meetups-dev',
+        mongodb_database: 'my-site-dev',
       },
     };
   }
@@ -17,7 +17,7 @@ module.exports = (phase) => {
       mongodb_username: 'mainuser',
       mongodb_password: '05xtMAKMOOpakuTj',
       mongodb_clustername: 'cluster0',
-      mongodb_database: 'meetups',
+      mongodb_database: 'my-site',
     },
   };
 };
